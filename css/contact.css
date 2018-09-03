@@ -1,0 +1,119 @@
+.form
+{
+    width: 200%;
+}
+
+.form_button
+
+{
+
+font-family: Calibri;
+font-size: 100%;
+width: 25%;
+background-color: #ff0042;
+color:#FFFFFF;
+border-radius: 45px;
+
+}
+
+
+.form_button:hover
+
+{
+
+
+    background-color: #FFFFFF;
+    color:#ff0042;
+    outline: none;
+
+}
+
+*:focus {
+    outline: 0 !important;
+}
+
+
+form {
+    display: inline-block;
+    text-align: center;
+    padding-left: 33.5%;
+}
+
+
+@media screen and (max-width: 480px) {
+    form {
+        display: inline-block;
+        text-align: center;
+        padding-left:15%;
+    }
+
+    .form
+    {
+        width: 300px;
+    }
+    .form_button
+
+    {
+
+        font-family: Calibri;
+        font-size: 100%;
+        width: 55%;
+        background-color: #ff0042;
+        color:#FFFFFF;
+        border-radius: 45px;
+
+    }
+
+
+    .form_button:hover
+
+    {
+
+
+        background-color: #FFFFFF;
+        color:#ff0042;
+        outline: none;
+
+    }
+}
+
+
+
+
+
+@media screen and (min-width: 480px)and (max-width: 1000px )  {
+    form {
+        display: inline-block;
+        text-align: center;
+        padding-left:28%;
+    }
+
+    .form
+    {
+        width: 300px;
+    }
+    .form_button
+
+    {
+
+        font-family: Calibri;
+        font-size: 100%;
+        width: 55%;
+        background-color: #ff0042;
+        color:#FFFFFF;
+        border-radius: 45px;
+
+    }
+
+
+    .form_button:hover
+
+    {
+
+
+        background-color: #FFFFFF;
+        color:#ff0042;
+        outline: none;
+
+    }
+}
